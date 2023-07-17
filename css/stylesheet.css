@@ -1,0 +1,39 @@
+* { margin: 0; padding: 0; outline: 0; border: 0; box-sizing: border-box; -webkit-box-sizing: border-box;}
+html, body { width: 100%; height: 100%; font-family: 'Tahoma', sans-serif;font-weight: 400;}
+a,a:hover { text-decoration: none !important; }
+.clear{clear: both;}
+.page{height:100%;width: 100%;margin: 0 auto;}
+.container{width: 980px; margin: 0 auto;}
+.header{width:100%;}
+.header .logo{float:left;}
+.items{display:inline-block;float:right}
+.header ul li{display:inline-block; padding-left:25px;padding-top:53px; font-size:10px; font-family: "Tahoma"; position:relative;text-transform:capitalize;list-style:none; font-weight:lighter}
+.header a{text-decoration:none;color:#605f5d;}
+.header li::before{height:11px; width:1px; background-color:#605f5d; content:""; position:absolute;top:54px;left:9px}
+.header ul li a:hover{color:#9a0704}
+.header li:first-child::before{display:none;height:15px; width:1px; background-color:#605f5d; content:""; position:absolute;top:57px;left:14px}
+.banner{float:left; height:351px; width:100%; background-image: url(../images/centerimg.jpg); background-repeat:no-repeat;}
+.services{float:left;width: 100%;}
+.services td{background-color:#f8f9f9 ; border:1px solid #d7d7d7;width:365px;color:#7c070c;text-transform:uppercase;font-size:11px; font-weight:700;padding-left:15px;padding-right:7px;padding-top:2px;height:65px;font-family:"Tahoma";}
+.services td a{color:#7c070c;}
+.services .roads{background-image: url(../images/icon1.jpg); background-repeat: no-repeat;background-position: 85px 26px}
+.services .power{background-image: url(../images/icon2.jpg); background-repeat: no-repeat;background-position: 110px 26px }
+.services .railways{background-image: url(../images/icon3.jpg); background-repeat: no-repeat; background-position: 103px 30px}
+.services .irrigation{background-image: url(../images/icon4.jpg); background-repeat: no-repeat; background-position: 110px 26px}
+.services .buildings{background-image: url(../images/icon5.jpg); background-repeat: no-repeat; background-position: 110px 26px}
+.services .minings{background-image: url(../images/icon6.jpg); background-repeat: no-repeat; background-position: 90px 32px}
+.services .environment{background-image: url(../images/icon7.jpg); background-repeat: no-repeat; background-position: 120px 26px}
+.info{height:33px; width:100%; background-color:#4b4b4a;float:left;text-align:left;color:#fff;font-size:14px;line-height:16px;font-weight:bold;text-transform:capitalize}
+.info .about{width:33%;display:inline-block;padding-top:8px;}
+.info .plant{width:33%;display:inline-block;padding-top:8px;}
+.info .news{width:33%;display:inline-block;padding-top:8px;}
+.data ul{ list-style-image: url(../images/dot.jpg);padding-left:15px}
+.data{height:195px;width: 100%;float:left;text-align:left;color:#5d5f60;font-size:11px;line-height:22px;font-weight:100;text-transform:capitalize;}
+.data li{height:97px; padding-bottom:30px;padding-left:7px;float:left;padding-right:36px}
+.data li:first-child{padding-top:23px;}
+.data span a{color:#8c2a27;}
+.data .about{width:33%;display:inline-block;padding-left:15px;border:1px solid #e1e1e1;}
+.data .about li span{position:absolute}
+.data .plant{width:33%;display:inline-block;background:url(../images/plants.jpg) no-repeat bottom;padding-left:15px;border:1px solid #e1e1e1;border-left:1px;}
+.data .news{width:33%;display:inline-block;padding-left:15px;border:1px solid #e1e1e1; border-left:1px}
+.footer{height: 41px ; width:100%; background-color:#8f2927;color:#fff; font-size:11px; ;text-align:left;float:left; text-transform:capitalize;padding-top:15px;padding-bottom:15px;}
